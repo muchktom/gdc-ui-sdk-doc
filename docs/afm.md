@@ -10,11 +10,11 @@ id: afm
 AFM is a combination of attributes, measures and filters that describes a query that you want to execute. In terms of underlying API, it is similar to creating an insight using [Analytical Designer](https://help.gooddata.com/display/doc/Create+an+Insight+with+Analytical+Designer).
 
 **Contents**
-* [Structure](##structure)
-* [Attribute](##attribute)
-* [Filter](##filter)
-* [Measure](##measure)
-* [Native total](##native-total)
+* [Structure](#structure)
+* [Attribute](#attribute)
+* [Filter](#filter)
+* [Measure](#measure)
+* [Native total](#native-total)
 
 
 ## Structure
