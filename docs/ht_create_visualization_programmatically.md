@@ -15,14 +15,14 @@ You can choose any of the supported visualization types. The following visualiza
 * `Table`. 
 For more information about the visualization types, see [React Components](react_components.md).
 
-Before you start creating visualizations on the fly, ensure that you have basic understanding of what AFM and resultSpec are. For details, see [AFM](afm.md) and [Result Specification \(resultSpec\)](restul_specification.md).
+Before you start creating visualizations on the fly, ensure that you have basic understanding of what AFM and resultSpec are. For details, see [AFM](afm.md) and [Result Specification \(resultSpec\)](result_specification.md).
 
 **Steps:**
 
 1. [Find the project ID](https://help.gooddata.com/display/doc/Find+the+Project+ID).
    The ID of the GoodSales demo project is`la84vcyhrq8jwbu4wpipw66q2sqeb923`.
 
-2. Obtain data identifiers using [gdc-catalog-export](gdc-catalog-export).
+2. Obtain data identifiers using [gdc-catalog-export](gdc-catalog-export.md).
 
 3. Create a JavaScript object with the exported data and save it.
 
@@ -137,4 +137,4 @@ render() {
 
 7. Set up a config object for your chart.
 
-To personalize the bar chart further \(for example, change colors\), override the default chart options. For more information, see [AFM React Components](amf.md).
+To personalize the bar chart further \(for example, change colors\), override the default chart options. For more information, see [AFM React Components](afm.md).
