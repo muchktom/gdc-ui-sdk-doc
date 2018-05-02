@@ -8,14 +8,14 @@ id: ht_create_your_first_visualization
 This tutorial will guide you through the process of creating your first smart application using GoodData.UI with the Facebook’s `create-react-app` tool.
 
 **Contents**
-* [Step 1 - Get create-react-app](#step_1_-_get_create-react-app)
-* [Step 2 - Create your React application](#step_2_-_create_your_react_application)
-* [Step 3 - Add GoodData SDK dependencies](#step_3_-_add_gooddata_sdk_dependencies)
-* [Step 4 - Start the development server](#step_4_-_start_the_development_server)
-* [Step 5 - Establish a session](#step_5_-_establish_a_session)
-* [Step 6 - Add GoodData components](#step_6_-_add_gooddata_components)
-* [Step 7 - Keep your code clean](#step_7_-_keep_your_code_clean)
-* [Next steps](#next_steps)
+* [Step 1 - Get create-react-app](#step-1---get-create-react-app)
+* [Step 2 - Create your React application](#step-2---create-your-react-application)
+* [Step 3 - Add GoodData SDK dependencies](#step-3---add-gooddata-sdk-dependencies)
+* [Step 4 - Start the development server](#step-4---start-the-development-server)
+* [Step 5 - Establish a session](#step-5---establish-a-session)
+* [Step 6 - Add GoodData components](#step-6---add-gooddata-components)
+* [Step 7 - Keep your code clean](#step-7---keep-your-code-clean)
+* [Next steps](#next-steps)
 
 After you complete this tutorial, you will be able to display various measures and charts from your GoodData project within the context of your React application.
 
@@ -214,10 +214,10 @@ Notice that the code in the `App.js` file still includes the hardcoded referen
 
 Here are some suggestions about what you can do after you created your first visualization:
 
-* Add more different elements: tables, charts, custom visualizations. For more information, see [React Components](react_components.md)).
+* Add more different elements: tables, charts, custom visualizations. For more information, see [React Components](react_components.md).
 * [Customize a visualization](ht_customize_visualization.md).
 * [Embed a visualization](ht_embed_visualization.md).
-* [Set up drilling](ht_set_up_drilling.md).
+* [DrillableItem](drillable_item.md).
 * Use your GoodData domain with CORS settings so you do not need to use a local proxy \(this is what you will have to do for the production deployment even if you prefer to use a proxy for local development\). For more information, see [How to Access the GoodData API Directly](ht_access_gd_api_directly.md).
 * Authenticate your users [using Single Sign-on (SSO)](sso.md) rather than sending them to a proxied GoodData login page.
 * Create a visualization in a [custom React application](ht_build_visualization_custom_react.md).
