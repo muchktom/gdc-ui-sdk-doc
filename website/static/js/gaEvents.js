@@ -1,14 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-	/*function handleOutboundLinkClicks(event) {
-	  ga('send', 'event', {
-	    eventCategory: 'Outbound Link',
-	    eventAction: 'click',
-	    eventLabel: event.target.href,
-	    transport: 'beacon'
-	  });
-	}*/
-
 	function sendGAEvent(item, action, category) {
 		item.addEventListener("click", function () {
 			ga('send', 'event', {
@@ -29,16 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	sendGAEvent(document.querySelector(".social-button.stackoverflow"), "click on footer", "Stack Overflow");
 	sendGAEvent(document.querySelector(".productShowcaseExample a[href*='https://gooddata-examples.herokuapp.com']"), "click in tutorial", "Live Examples");
 	sendGAEvent(document.querySelector(".homeWrapper a.button-link[href*='https://help.gooddata.com/display/doc/GoodData+Platform+Overview']"), "click", "Develop with GoodData");
-
-	
-
-
-
-    /*var hrefs = document.querySelectorAll("a[href*='https://']");
-
-    hrefs.forEach(function(item) {
-    	item.addEventListener('click', function(event) {
-        	handleOutboundLinkClicks(event);
-    	});
-    });*/
 });
